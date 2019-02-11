@@ -11,16 +11,53 @@
         -ms-user-select: none;
             user-select: none;
           }
-.image {
+.valign {
   height: 100vh;
-  display: flex;
   align-items: center;
-  justify-content: center;
-}
+  justify-content: center; }
+.center {
+  text-align: center; }
+.reset {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  width: 400px;
+  align-items: space-between; }
+.flex {
+  display: flex; }
+.auto {
+  flex: 1 1 auto; }
+.mt {
+  margin-top: 5em; }
+.p {
+  border: 0;
+  text-decoration: none;
+  display: inline-block; }
 </style>
 <title>Cerveza Diógenes</title>
-<div class="noselect image">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnJm9yonPqD5ecDdzF72H6W6qxujjcVD1N8coyBXvGryDIDUBX">
+<div class="noselect flex valign">
+  <div class="center">
+    <a class="p" href="https://www.cervezadiogenes.com/">
+      <img width="313" height="350" src="eval_is_evil.jpg">
+    </a>
+    <ul class="reset flex mt">
+      <li class="auto">
+        <a class="p" href="https://facebook.com/CervezaDiogenesGDL">
+          <img width="50" height="50" alt="@CervezaDiogenes on Facebook" src="fb_icon_100b.png">
+        </a>
+      </li>
+      <li class="auto">
+        <a class="p" href="https://twitter.com/cervezadiogenes">
+          <img width="50" height="50" alt="@CervezaDiogenes on Twitter" src="tw_icon_100b.png">
+        </a>
+      </li>
+      <li class="auto">
+        <a class="p" href="https://untappd.com/cervezadiogenes">
+          <img width="50" height="50" alt="@CervezaDiogenes on Untappd" src="ut_icon_100b.png">
+        </a>
+      </li>
+    </ul>
+  </div>
 </div>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132823051-1"></script>
 <script>

@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+}
+.debug * {
+  outline: 1px dashed red;
+}
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.valign {
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.center {
+  text-align: center;
+}
+.reset {
+  list-style: none;
+  padding: 0;
+}
+.flex {
+  display: flex;
+}
+.auto {
+  flex: 1 1 auto;
+}
+.fit {
+  max-width: 100%;
+  height: auto;
+}
+.mt {
+  margin-top: 5em;
+}
+.p {
+  border: 0;
+  text-decoration: none;
+  display: inline-block;
+}
+#menu {
+  width: 100%;
+  bottom: -50px;
+  bottom: -2.5em;
+  position: fixed;
+  transition: bottom .5s;
+}
+#menu > label {
+  display: block;
+  text-align: center;
+}
+#menu > label path {
+  transition: fill .2s;
+  fill: gray;
+}
+#menu a {
+  color: transparent;
+  display: block;
+  font-size: 1.5em;
+}
+#menu li {
+  padding: 1em;
+  text-align: center;
+}
+#menu li span {
+  display: none;
+  visibility: hidden;
+}
+#toggle:checked ~ #menu {
+  bottom: 0;
+}
+#toggle:checked ~ #menu a {
+  color: black;
+}
+#toggle:checked ~ #menu > label path {
+  fill: silver;
+}
+@media screen and (min-width: 800px) {
+  #menu {
+    bottom: -3em;
+  }
+  #menu a {
+    font-size: 2em;
+  }
+}

@@ -20,6 +20,14 @@ mixin iconImage(name, forced)
   else
     svgIcon(src=name)
 
+
+mixin getVideo(name, width, height)
+  video(controls poster=`${ROOT || ''}/video/${name}.jpg` width=width height=height)&attributes(attributes)
+    source(src=`${ROOT || ''}/video/${name}.mp4` type='video/mp4')
+    source(src=`${ROOT || ''}/video/${name}.webm` type='video/webm')
+    source(src=`${ROOT || ''}/video/${name}.ogv` type='video/ogg')
+    p: a(href=`${ROOT || ''}/video/${name}.mp4`)= name.replace(/_/g, ' ')
+
 mixin prodItem(meta)
   p.flex.product
     span.auto

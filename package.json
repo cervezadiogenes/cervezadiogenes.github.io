@@ -58,7 +58,6 @@
       "rollup": {
         "context": "window",
         "plugins": [
-          "rollup-plugin-svelte",
           "rollup-plugin-node-resolve",
           "rollup-plugin-commonjs"
         ]
@@ -82,8 +81,7 @@
     "eslint": "^6.4.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-pug": "^1.1.1",
-    "eslint-plugin-svelte3": "^2.7.3",
+    "eslint-plugin-pug": "^1.2.2",
     "eslint-utils": ">=1.4.1",
     "highlight.js": "^9.15.6",
     "html-minifier": "^4.0.0",
@@ -98,8 +96,6 @@
     "pug": "^2.0.0-beta11",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-svelte": "^5.1.0",
-    "svelte": "^3.3.0",
     "svql": "0.0.27",
     "talavera": "^0.8.1",
     "tarima": "^4.8.5",

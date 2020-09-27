@@ -14,8 +14,8 @@ block top
       ul.reset
         li: +linkFor('/')
           +iconImage('fauno')
-        li.shadow: +linkFor('/tonel#drinks', 'Bebidas')
-        li.shadow: +linkFor('/tonel#food', 'Pequeña cocina')
+        li.shadow: +linkFor('/tonel/#drinks', 'Bebidas')
+        li.shadow: +linkFor('/tonel/#food', 'Pequeña cocina')
 
 block body
   .body.segment.center
@@ -26,6 +26,7 @@ block body
       .push
         +linkFor('/tonel')
           image.fit.max(src='tonel')
+        p: span Cerveza Artesanal
 
       each section in menu.sections
         .push.separator: a(name=section.name)

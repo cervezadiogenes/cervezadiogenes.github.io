@@ -12,6 +12,14 @@ i[class^="x-"], i[class*=" x-"] {
   width: 420px; height: 420px;
   background-image: url(images/ubicacion.jpg);
 }
+.x-tonel {
+  width: 1958px; height: 315px;
+  background-image: url(images/tonel.png);
+}
+.x-amarillo {
+  width: 800px; height: 800px;
+  background-image: url(images/amarillo.png);
+}
 
 
 

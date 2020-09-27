@@ -1,0 +1,50 @@
+//-
+  ---
+  title: Tonel de Diógenes
+  ---
+
+extends ../lib/layouts/default
+
+block top
+  nav.fixed.segment.nosl
+    p Argentina #17, Col. Americana
+    div
+      ul.reset
+        li: +linkFor('/')
+          +iconImage('fauno')
+        li: +linkFor('/tonel#food', 'Food')
+        li: +linkFor('/tonel#drinks', 'Drinks')
+
+block body
+  .body.segment.center
+    div
+      .push
+        img.fit(src='//placehold.it/960x420')
+
+      .push
+        a(name='food')
+        h2.caps Alimentos / Food
+        ul.reset
+          li: a(href='#') Menú I
+          li: a(href='#') Menú I
+
+      for x in Array(5)
+        .push
+          h2.caps FIXME
+          ul.reset
+            li: a(href='#') Menú I
+            li: a(href='#') Menú I
+
+      .push
+        a(name='drinks')
+        h2.caps Bebidas / Drinks
+        ul.reset
+          li: a(href='#') Menú I
+          li: a(href='#') Menú I
+
+      for x in Array(5)
+        .push
+          h2.caps FIXME
+          ul.reset
+            li: a(href='#') Menú I
+            li: a(href='#') Menú I

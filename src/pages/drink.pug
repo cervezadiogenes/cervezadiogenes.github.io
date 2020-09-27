@@ -1,0 +1,16 @@
+//-
+  ---
+  title: Cerveza Diógenes / Drink
+  classes: diogenes page
+  ---
+
+extends ../lib/layouts/default
+
+block top
+  include ../lib/partials/menu
+
+block body
+  .body.segment.center
+    .max: .push
+      +linkFor('/tonel')
+        image.fit(src='tonel' alt='Tonel de Diógenes')

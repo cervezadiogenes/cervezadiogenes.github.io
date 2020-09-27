@@ -1,0 +1,316 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Playfair Display';
+  background-color: white;
+  background-image: url(../images/tonel.png);
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-position: 50%;
+  background-size: 80%;
+
+  &.diogenes {
+    margin: 0;
+    color: white;
+    font-family: 'Playfair Display';
+    background-color: black;
+    background-image: url(../images/amarillo.png);
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-position: 30% 60%;
+    background-size: 80%;
+
+    .segment.body {
+      margin-top: 150px;
+    }
+
+    &.page {
+      &::before {
+        backdrop-filter: blur(5px);
+        position: fixed;
+        z-index: -1;
+        content: '';
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .push {
+      background-color: rgba(0, 0, 0, .8);
+    }
+
+    #social {
+      border-top: 1px solid rgba(255, 255, 255, .3);
+    }
+
+    footer {
+      border-top: 1px solid rgba(255, 255, 255, .3);
+    }
+
+    nav {
+      border-bottom: 1px solid rgba(255, 255, 255, .3);
+    }
+
+    a {
+      path {
+        fill: white;
+      }
+
+      &:hover {
+        color: #ffe6b6;
+        border-color: #ffe6b6;
+      }
+    }
+
+    nav li a:hover svg path {
+      fill: #ffe6b6;
+    }
+  }
+
+  @media screen and (min-width: 720px) {
+    background-size: 560px !important;
+  }
+}
+
+nav {
+  border-bottom: 1px solid rgba(0, 0, 0, .3);
+  background-color: inherit;
+  padding-top: 20px;
+  z-index: 1;
+
+  li {
+    text-transform: uppercase;
+    text-align: right;
+    margin-left: 120px;
+    font-size: 1.2em;
+    padding: 10px;
+
+    &:first-child {
+      position: absolute;
+      margin-left: 0;
+
+      a {
+        display: inline-block;
+        height: 90px;
+        border: 0;
+
+        &:hover {
+          svg path {
+            fill: gray;
+          }
+        }
+      }
+    }
+  }
+
+  a {
+    font-family: 'Playfair Display';
+    display: block;
+
+    svg {
+      width: inherit;
+      height: inherit;
+
+      path {
+        transition: fill .2s;
+      }
+    }
+  }
+
+  @media screen and (min-width: 720px) {
+    padding-top: 0;
+
+    ul {
+      display: flex;
+      align-items: center;
+      align-content: stretch;
+    }
+
+    li {
+      text-align: left;
+      margin: 0;
+
+      + li {
+        margin-left: 20px;
+      }
+
+      &:first-child {
+        position: static;
+        flex: 1 1 auto;
+      }
+    }
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  padding-bottom: 10px;
+  border-bottom: 5px solid transparent;
+  transition: color .2s, border-color .2s;
+
+  &[aria-current=page],
+  &:hover {
+    color: gray;
+    border-color: silver;
+  }
+
+  svg {
+    width: auto;
+    height: 1.5em;
+  }
+
+  + p {
+    text-align: center;
+    margin-top: 20px
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.nosl {
+  cursor: default;
+  user-select: none;
+}
+
+.debug * {
+  outline: 1px dashed red;
+}
+
+.reset {
+  list-style-type: none;
+}
+
+.flex {
+  display: flex;
+
+  > .auto {
+    flex: 1 1 auto;
+  }
+}
+
+.p {
+  padding: 10px;
+}
+
+.fit {
+  max-width: 100%;
+  height: auto;
+  filter: invert(1);
+}
+
+.push {
+  background-color: rgba(255, 255, 255, .9);
+  position: relative;
+  padding: 20px;
+
+  + .push {
+    margin-top: 20px;
+  }
+
+  > a[name] {
+    position: absolute;
+    top: -170px;
+  }
+
+  &:last-child {
+    margin-bottom: 100px;
+  }
+}
+
+.segment {
+  max-width: 90%;
+  margin: auto;
+  width: 100%;
+  top: 0;
+
+  &.fixed {
+    left: 0;
+    right: 0;
+    position: fixed;
+  }
+
+  &.body {
+    margin-top: 170px;
+  }
+
+  > p {
+    background-color: black;
+    color: white;
+    position: fixed;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2em;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    + div {
+      margin-top: 50px;
+    }
+  }
+
+  > div {
+    max-width: 960px;
+    margin: auto;
+
+    &.max {
+      max-width: 420px;
+    }
+  }
+}
+
+#info {
+  border-right: 1px solid yellow;
+  border-bottom: 1px solid yellow;
+  letter-spacing: .5em;
+  color: yellow;
+  position: absolute;
+  line-height: 1.5;
+  padding: 10px;
+  left: 54%;
+  top: 75%;
+
+  &::before, &::after {
+    background-color: yellow;
+    position: absolute;
+    content: '';
+  }
+
+  &::before {
+    width: 10px;
+    height: 1px;
+    bottom: -1px;
+    right: -10px;
+  }
+
+  &::after {
+    width: 1px;
+    height: 10px;
+    bottom: -10px;
+    right: -1px;
+  }
+}
+
+#social {
+  padding: 20px;
+  border-top: 1px solid rgba(0, 0, 0, .3);
+  background-color: inherit;
+  text-align: center;
+  top: auto;
+  bottom: 0;
+}

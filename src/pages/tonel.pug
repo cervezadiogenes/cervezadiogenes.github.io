@@ -1,6 +1,7 @@
 //-
   ---
   title: Tonel de Diógenes
+  menu: !include _menu.yml
   ---
 
 extends ../lib/layouts/default
@@ -12,39 +13,42 @@ block top
       ul.reset
         li: +linkFor('/')
           +iconImage('fauno')
-        li: +linkFor('/tonel#food', 'Food')
-        li: +linkFor('/tonel#drinks', 'Drinks')
+        li: +linkFor('/tonel#drinks', 'Bebidas')
+        li: +linkFor('/tonel#food', 'Pequeña cocina')
 
 block body
   .body.segment.center
-    div
+    div.nosl
       .push
         img.fit(src='//placehold.it/960x420')
 
       .push
-        a(name='food')
-        h2.caps Alimentos / Food
-        ul.reset
-          li: a(href='#') Menú I
-          li: a(href='#') Menú I
+        image.fit.max(src='tonel')
 
-      for x in Array(5)
-        .push
-          h2.caps FIXME
-          ul.reset
-            li: a(href='#') Menú I
-            li: a(href='#') Menú I
+      each section in menu.sections
+        .push.separator: a(name=section.name)
 
-      .push
-        a(name='drinks')
-        h2.caps Bebidas / Drinks
-        ul.reset
-          li: a(href='#') Menú I
-          li: a(href='#') Menú I
+        for item in section.items
+          .push(class=item.class)
+            if item.label
+              h3.caps= item.label
+                if item.unit
+                  small (#{item.unit})
 
-      for x in Array(5)
-        .push
-          h2.caps FIXME
-          ul.reset
-            li: a(href='#') Menú I
-            li: a(href='#') Menú I
+            if item.legend
+              h4.caps= item.legend
+
+            if item.notes
+              small= item.notes
+
+            for prod in item.products
+              +prodItem(prod)
+
+              if prod.desc
+                for line in prod.desc
+                  p.desc: em= line
+
+              if prod.options
+                .flex
+                  each opt in prod.options
+                    +prodItem(opt)

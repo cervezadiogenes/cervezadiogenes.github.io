@@ -1,0 +1,3 @@
+sections:
+- !include _drinks.yml
+- !include _food.yml

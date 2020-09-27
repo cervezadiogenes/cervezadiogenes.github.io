@@ -1,0 +1,188 @@
+name: drinks
+items:
+-
+  label: BEBIDAS
+  class: clear
+  products:
+    - name: Agua mineral
+      unit: 355ml
+      price: 35
+    - name: Schweppes
+      unit: 275ml
+      price: 30
+    - name: Velvet Soda
+      unit: 275ml
+      price: 40
+    - name: Espresso
+      price: 30
+    - name: Espresso americano
+      price: 35
+    - name: V60 / prensa
+      price: 45
+    - name: Cortado
+      price: 35
+    - name: Cappuccino
+      price: 35
+    - name: Latte
+      price: 35
+    - name: Infusión herbal
+      price: 40
+    - name: Té verde
+      price: 40
+    - name: Té negro
+      price: 40
+    - name: Iced latte
+      price: 40
+    - name: Cold brew
+      price: 40
+    - name: Chocolate
+      price: 35
+
+-
+  label: CERVEZA
+  legend: DEL TONEL DE DIÓGENES
+  products:
+    - name: Caña de barril
+      unit: 325 ml
+      price: 50
+    - name: Pinta de barril
+      unit: 414 ml
+      price: 70
+    - name: Chinaski
+      unit: sujeto a disponibilidad
+      options:
+      - name: caña
+        unit: 325ml
+        price: 65
+      - name: pinta
+        unit: 414ml
+        price: 85
+
+-
+  class: clear
+  legend: BOTELLA
+  notes: Pregunta por estilos de temporada y ediciones limitadas disponibles
+  products:
+    - name: Diógenes Pale Ale
+      unit: 355ml
+      price: 60
+    - name: Diógenes Pilsner
+      unit: 355ml
+      price: 60
+    - name: Diógenes IPA
+      unit: 355ml
+      price: 60
+    - name: Antístenes Golden Ale
+      unit: 355ml
+      price: 50
+
+-
+  legend: OTRAS CERVEZAS
+  class: clear
+  products:
+    - name: Stella Artois
+      unit: 330ml
+      price: 45
+    - name: Modelo Especial
+      unit: 355ml
+      price: 35
+    - name: Corona
+      unit: 355ml
+      price: 30
+    - name: Victoria
+      unit: 355ml
+      price: 30
+
+-
+  label: APERITIVOS
+  unit: 2 oz
+  products:
+
+  - name: Vermut rojo ó blanco
+    price: 75
+    desc:
+    - En las rocas ó con soda
+
+  - name: Cynar
+    price: 85
+    desc:
+    - En las rocas ó con soda
+
+  - name: Amaro Averna
+    price: 85
+    desc:
+    - En las rocas ó con soda
+
+  - name: Milano Torino Americano
+    price: 85
+    desc:
+    - Cinzano, campari y soda
+
+  - name: Aperol Spritz
+    price: 85
+    desc:
+    - Aperol, prosecco y soda
+
+  - name: Vermut Spritz
+    price: 85
+    desc:
+    - Vermut rojo ó blanco, prosecco y soda
+
+  - name: Madeira Henriques & Henriques
+    unit: 59ml
+    price: 105
+  - name: Manzanilla La Guita
+    price: 105
+
+-
+  label: VINO POR COPA
+  unit: 5 oz
+  products:
+    - name: Vilarnau, Brut Reserva Rosé
+      price: 85
+      desc:
+      - Trepat-Pinot Noir, DO Cava, Cataluña, España
+
+    - name: Vignerons D'Estézargues, Les Grandes Vignes
+      price: 85
+      desc:
+      - Grenache Blanc-Clairette-Bourboulenc, AOC Côtes du Rhône, Francia
+
+    - name: Vignerons D'Estézargues, Cuvée des Galets
+      price: 85
+      desc:
+      - Grenache-Carignan-Syrah, AOC Côtes du Rhône, Francia
+
+-
+  label: ESPÍRITU
+  unit: 2 oz
+  products:
+    - name: Pelayo
+      price: 85
+      desc:
+      - Gin larios, vermut y soda
+
+    - name: Beefeater
+      price: 95
+      desc:
+      - Tónica
+
+    - name: Wild Turkey Rye Whiskey
+      price: 95
+      desc:
+      - Rocas ó highball
+
+-
+  label: SAKE
+  products:
+    - name: Funaguchi
+      unit: 200ml
+      price: 180
+      desc:
+      - Honjozo
+
+    - name: Neko Premium
+      unit: 180ml
+      price: 240
+      desc:
+      - Jumnai

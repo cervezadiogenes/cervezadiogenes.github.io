@@ -19,3 +19,12 @@ mixin iconImage(name, forced)
     srcFile(src=`src/resources/sprites/${name}.svg`)
   else
     svgIcon(src=name)
+
+mixin prodItem(meta)
+  p.flex.product
+    span.auto
+      span #{meta.name}
+        if meta.unit
+          small (#{meta.unit})
+    if meta.price
+      span $#{meta.price}

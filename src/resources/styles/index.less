@@ -35,7 +35,7 @@ body {
 
   &.tonel {
     &::before {
-      background-color: rgba(255, 255, 255, .8);
+      background-color: rgba(255, 255, 255, .5);
       position: fixed;
       z-index: -1;
       content: '';
@@ -247,7 +247,11 @@ h4 + p {
 }
 
 h3 + h4,
-small + p {
+small + p,
+p + h3,
+p + h4,
+.flex + h3,
+.flex + h4 {
   margin-top: 15px;
 }
 
@@ -308,6 +312,10 @@ em, small {
   position: relative;
   padding: 20px;
 
+  @media screen and (min-width: 960px) {
+    padding: 50px;
+  }
+
   + .push {
     border-top: 1px solid black;
 
@@ -325,16 +333,6 @@ em, small {
     }
   }
 
-  &.push.separator {
-    background: none;
-    padding: 0;
-    margin: 0;
-
-    + .push {
-      margin: 0;
-    }
-  }
-
   &:first-child {
     margin-top: 200px;
 
@@ -345,6 +343,55 @@ em, small {
 
   &:last-child {
     margin-bottom: 100px;
+  }
+
+  &.clear {
+    margin-bottom: 0;
+  }
+}
+
+.icons {
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+
+  i {
+    transform: scale(.75);
+  }
+}
+
+.half {
+  width: 65%;
+}
+
+@media screen and (min-width: 960px) {
+  .half {
+    width: 50%;
+  }
+
+  .md-flex {
+    display: flex;
+  }
+
+  .md-half {
+    width: 50%;
+
+    + .md-half {
+      position: relative;
+      padding-left: 20px;
+
+      &::before {
+        top: 0;
+        left: -15px;
+        width: 0;
+        height: 100%;
+        content: '';
+        position: absolute;
+        border-left: 1px solid black;
+      }
+    }
   }
 }
 
@@ -381,7 +428,7 @@ em, small {
     }
   }
 
-  > div {
+  > div:first-child {
     max-width: 960px;
     margin: auto;
 
@@ -397,7 +444,7 @@ em, small {
   font-family: eideticneo_boldregular;
   position: relative;
 
-  span:last-child,
+  span:nth-child(2),
   span > span {
     background-color: white;
     position: relative;
@@ -415,6 +462,12 @@ em, small {
     height: 0;
     bottom: 3px;
     border-bottom: 2px dotted black;
+  }
+
+  &.clear {
+    &::before {
+      display: none;
+    }
   }
 
   + .product {
@@ -439,6 +492,18 @@ em, small {
 .shadow {
   font-family: ImprintMT-Shadow;
   font-weight: 100
+}
+
+.break {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid black;
+}
+
+@media screen and (max-width: 959px) {
+  .sm-break {
+    .break;
+  }
 }
 
 .flex > .product + .product {

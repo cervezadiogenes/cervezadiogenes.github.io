@@ -20,7 +20,6 @@ mixin iconImage(name, forced)
   else
     svgIcon(src=name)
 
-
 mixin getVideo(name, width, height)
   video(controls poster=`${ROOT || ''}/video/${name}.jpg` width=width height=height)&attributes(attributes)
     source(src=`${ROOT || ''}/video/${name}.mp4` type='video/mp4')
@@ -28,11 +27,39 @@ mixin getVideo(name, width, height)
     source(src=`${ROOT || ''}/video/${name}.ogv` type='video/ogg')
     p: a(href=`${ROOT || ''}/video/${name}.mp4`)= name.replace(/_/g, ' ')
 
-mixin prodItem(meta)
-  p.flex.product
+mixin prodItem(meta, italics)
+  p.flex.product(class=meta.options ? 'clear' : '')
     span.auto
-      span #{meta.name}
+      span
+        if italics
+          em= meta.name
+        else
+          = meta.name
         if meta.unit
           small (#{meta.unit})
     if meta.price
       span $#{meta.price}
+
+mixin prodList(item)
+  if item.label
+    h3.caps.shadow(class=item.classes || '')= item.label
+      if item.unit
+        small (#{item.unit})
+
+  if item.legend
+    h4.caps.shadow= item.legend
+
+  if item.notes
+    small= item.notes
+
+  for prod in item.products
+    +prodItem(prod)
+
+    if prod.desc
+      for line in prod.desc
+        p.desc: em= line
+
+    if prod.options
+      .flex
+        each opt in prod.options
+          +prodItem(opt, true)

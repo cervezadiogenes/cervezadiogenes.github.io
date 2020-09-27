@@ -1,131 +1,149 @@
 name: food
+icons:
+  left:
+    - oliva
+    - boqueron
+    - embutido
+    - jamon
+    - sandwich
+  right:
+    - tentempies
+    - conservas
+    - latas
+    - dulce
 items:
--
-  label: PEQUEÑA COCINA
-  class: clear
-  products:
-    - name: Olivas
-      price: 45
-      desc:
-      - Verdes y negras con aliño de la casa
+  left:
+  -
+    label: PEQUEÑA COCINA
+    class: clear
+    products:
+      - name: Olivas
+        price: 45
+        desc:
+        - Verdes y negras con aliño de la casa
 
-    - name: Boquerones
-      unit: 6 piezas
-      price: 95
-      desc:
-      - En vinagre y aceite de oliva extra virgen
+      - name: Boquerones
+        unit: 6 piezas
+        price: 95
+        desc:
+        - En vinagre y aceite de oliva extra virgen
 
-    - name: Ensalada de tomate y bonito
-      price: 85
-      desc:
-      - En aceite de oliva extra virgen y guindilla
+      - name: Ensalada de tomate y bonito
+        price: 85
+        desc:
+        - En aceite de oliva extra virgen y guindilla
 
-    - name: Pimientos asados
-      price: 65
-      desc:
-      - En vinagre y aceite de oliva extra virgen
+      - name: Pimientos asados
+        price: 65
+        desc:
+        - En vinagre y aceite de oliva extra virgen
 
-    - name: Tarta de patata
-      price: 65
-      desc:
-      - Al horno con cebolla y huevo
+      - name: Tarta de patata
+        price: 65
+        desc:
+        - Al horno con cebolla y huevo
 
-    - name: Embutidos ibéricos
-      price: 90
-      desc:
-      - Salchichón de bellota con 6 meses de curación y pimienta negra
-      - Chorizo de bellota con 6 meses de curación y pimentón
+      - name: Embutidos ibéricos
+        price: 90
+        desc:
+        - Salchichón de bellota con 6 meses de curación y pimienta negra
+        - Chorizo de bellota con 6 meses de curación y pimentón
 
-    - name: Pinchos de la casa
-      price: 75
-      desc:
-      - Boquerón, anchoa y pimiento asado
+      - name: Pinchos de la casa
+        price: 75
+        desc:
+        - Boquerón, anchoa y pimiento asado
 
-    - name: Plato de quesos
-      unit: 150g aprox
-      price: 120
-      desc:
-      - Pequeña selección de quesos de temporada
-      - Estilos sujetos a disponibilidad
+      - name: Plato de quesos
+        unit: 150g aprox
+        price: 120
+        desc:
+        - Pequeña selección de quesos de temporada
+        - Estilos sujetos a disponibilidad
 
-    - name: Tosta de jamón
-      price: 95
-      desc:
-      - Pan, tomate, ibérico de recebo, aceite de oliva extra virgen
+      - name: Tosta de jamón
+        price: 95
+        desc:
+        - Pan, tomate, ibérico de recebo, aceite de oliva extra virgen
 
-    - name: Tosta manchega
-      price: 95
-      desc:
-      - Pan, tomate, queso de oveja semi curado y anchoa del cantábrico
+      - name: Tosta manchega
+        price: 95
+        desc:
+        - Pan, tomate, queso de oveja semi curado y anchoa del cantábrico
 
-    - name: Sándwich tostado
-      price: 95
-      desc:
-      - Pan shoku, jamón cocido, queso y pepinillos en vinagre
+      - name: Sándwich tostado
+        price: 95
+        desc:
+        - Pan shoku, jamón cocido, queso y pepinillos en vinagre
 
-    - name: Sándwich tostado de serrano
-      price: 85
-      desc:
-      - Pan baguette, serrano y manchego 3 leches, acompañado con chips
+      - name: Sándwich tostado de serrano
+        price: 85
+        desc:
+        - Pan baguette, serrano y manchego 3 leches, acompañado con chips
 
-    - name: Jamón de bellota
-      price: 140
-      desc:
-      - 25g de jamón de cerdo ibérico de bellota con 36 meses de curación
-      - Denominación de Origen Extremadura
+      - name: Jamón de bellota
+        price: 140
+        desc:
+        - 25g de jamón de cerdo ibérico de bellota con 36 meses de curación
+        - Denominación de Origen Extremadura
 
--
-  label: TENTEMPIÉS
-  notes: '*especiales de temporada ver pizarrón'
-  products:
-    - name: Porción de chips
-      price: 30
-      desc:
-      - Sal de mar
+  right:
+  -
+    label: TENTEMPIÉS
+    classes: sm-break
+    notes: '*especiales de temporada ver pizarrón'
+    products:
+      - name: Porción de chips
+        price: 30
+        desc:
+        - Sal de mar
 
-    - name: Pistaches
-      price: 35
-      desc:
-      - Rostizados con sal
+      - name: Pistaches
+        price: 35
+        desc:
+        - Rostizados con sal
 
-    - name: Pepinillos
-      price: 25
-      desc:
-      - En vinagre
+      - name: Pepinillos
+        price: 25
+        desc:
+        - En vinagre
 
-    - name: Papas fritas caseras con boquerones
-      price: 120
-      desc:
-      - Acompañadas de olivas
+      - name: Papas fritas caseras con boquerones
+        price: 120
+        desc:
+        - Acompañadas de olivas
 
--
-  label: CONSERVAS
-  products:
-    - name: Mejillones
-      price: 60
-      desc:
-      - En escabeche con papas fritas caseras
+  -
+    label: CONSERVAS
+    classes: break
+    products:
+      - name: Mejillones
+        price: 60
+        desc:
+        - En escabeche con papas fritas caseras
 
-    - name: Zamburiñas
-      price: 60
-      desc:
-      - En salsa de vieira y papas fritas caseras
+      - name: Zamburiñas
+        price: 60
+        desc:
+        - En salsa de vieira y papas fritas caseras
 
--
-  label: LATAS
-  products:
-    - name: Berberechos de rías gallegas
-      unit: 112g
-      price: 185
-      desc:
-      - Aliño de aceite extra virgen, limón amarillo y pimienta
+  -
+    label: LATAS
+    classes: break
+    products:
+      - name: Berberechos de rías gallegas
+        unit: 112g
+        price: 185
+        desc:
+        - Aliño de aceite extra virgen, limón amarillo y pimienta
 
--
-  label: DULCE
-  products:
-    - name: Chocolatina
-      price: 45
-    - name: Croissant
-      price: 30
-    - name: Cheese cake
-      price: 70
+  -
+    label: DULCE
+    classes: break
+    products:
+      - name: Chocolatina
+        price: 45
+      - name: Croissant
+        price: 30
+      - name: Cheese cake
+        price: 70

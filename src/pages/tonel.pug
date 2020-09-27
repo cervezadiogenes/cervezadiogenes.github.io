@@ -7,6 +7,9 @@
 
 extends ../lib/layouts/default
 
+block head
+  includeTag(src='menu.css')
+
 block top
   nav.fixed.segment.nosl
     p.caps Argentina #17, Col. Americana
@@ -23,35 +26,28 @@ block body
       .push
         +getVideo('Tonel_de_Diogenes_Moral-Chico', 960, 420).fit
 
-      .push
+      .push.clear
         +linkFor('/tonel')
           image.fit.max(src='tonel')
         p: span Cerveza Artesanal
 
-      each section in menu.sections
-        .push.separator: a(name=section.name)
-
-        for item in section.items
-          .push(class=item.class)
-            if item.label
-              h3.caps.shadow= item.label
-                if item.unit
-                  small (#{item.unit})
-
-            if item.legend
-              h4.caps.shadow= item.legend
-
-            if item.notes
-              small= item.notes
-
-            for prod in item.products
-              +prodItem(prod)
-
-              if prod.desc
-                for line in prod.desc
-                  p.desc: em= line
-
-              if prod.options
-                .flex
-                  each opt in prod.options
-                    +prodItem(opt)
+    each section in menu.sections
+      .push
+        a(name=section.name)
+        .md-flex
+          .md-half
+            .flex
+              .half
+                for item in section.items.left
+                  +prodList(item)
+              .auto.icons
+                for icon in section.icons.left
+                  icon(src=`menu/${icon}`)
+          .md-half
+            .flex
+              .half
+                for item in section.items.right
+                  +prodList(item)
+              .auto.icons
+                for icon in section.icons.right
+                  icon(src=`menu/${icon}`)

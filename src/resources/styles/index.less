@@ -1,3 +1,18 @@
+@font-face {
+  font-family: ImprintMT-Shadow;
+  src: url('ImprintMT-Shadow.eot?#iefix') format('embedded-opentype'),  url('ImprintMT-Shadow.woff') format('woff'), url('ImprintMT-Shadow.ttf')  format('truetype'), url('ImprintMT-Shadow.svg#ImprintMT-Shadow') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: eideticneo_boldregular;
+  src: url('eideticneo_bold_regular-webfont.woff2') format('woff2'),
+       url('eideticneo_bold_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 *,
 *::before,
 *::after {
@@ -18,15 +33,17 @@ body {
   background-position: 50%;
   background-size: 80%;
 
-  &::before {
-    background-color: rgba(255, 255, 255, .8);
-    position: fixed;
-    z-index: -1;
-    content: '';
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  &.tonel {
+    &::before {
+      background-color: rgba(255, 255, 255, .8);
+      position: fixed;
+      z-index: -1;
+      content: '';
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
   }
 
   &.diogenes {
@@ -55,6 +72,10 @@ body {
         width: 100%;
         height: 100%;
       }
+    }
+
+    .fit {
+      filter: invert(1);
     }
 
     .push {
@@ -99,6 +120,11 @@ nav {
   background-color: inherit;
   padding-top: 20px;
   z-index: 1;
+
+  p {
+    font-family: ImprintMT-Shadow;
+    text-transform: uppercase;
+  }
 
   li {
     text-transform: uppercase;
@@ -197,12 +223,22 @@ small + p {
   margin-top: 15px;
 }
 
+h3, h4, .shadow {
+  text-shadow: -1px 0 0 white, -2px 0 0 rgba(0, 0, 0, .3);
+  font-family: ImprintMT-Shadow;
+  font-weight: 100
+}
+
 h3 {
   letter-spacing: .15em;
 }
 
 h4 {
   letter-spacing: .1em;
+}
+
+em, small {
+  font-family: 'Crimson Text';
 }
 
 * {
@@ -243,12 +279,6 @@ h4 {
 .fit {
   max-width: 100%;
   height: auto;
-}
-
-.max {
-  max-width: 420px;
-  display: block;
-  margin: auto;
 }
 
 .push {
@@ -332,10 +362,17 @@ h4 {
   > div {
     max-width: 960px;
     margin: auto;
+
+    &.max {
+      max-width: 420px;
+      display: block;
+      margin: auto;
+    }
   }
 }
 
 .product {
+  font-family: eideticneo_boldregular;
   position: relative;
 
   span:last-child,
@@ -363,6 +400,12 @@ h4 {
   }
 }
 
+.max {
+  max-width: 420px;
+  display: block;
+  margin: auto;
+}
+
 .flex > .product + .product {
   margin-top: 0;
 }
@@ -373,7 +416,8 @@ h3 + .product {
 
 small,
 h3 small {
-  font-size: 12px
+  font-size: 12px;
+  font-style: italic;
 }
 
 .desc {
@@ -385,10 +429,10 @@ h3 small {
 }
 
 #info {
-  border-right: 1px solid yellow;
-  border-bottom: 1px solid yellow;
+  border-right: 1px solid #ffe6b6;
+  border-bottom: 1px solid #ffe6b6;
   letter-spacing: .5em;
-  color: yellow;
+  color: #ffe6b6;
   position: absolute;
   line-height: 1.5;
   padding: 10px;
@@ -396,7 +440,7 @@ h3 small {
   top: 75%;
 
   &::before, &::after {
-    background-color: yellow;
+    background-color: #ffe6b6;
     position: absolute;
     content: '';
   }

@@ -2,6 +2,7 @@
   ---
   title: Tonel de Diógenes
   menu: !include _menu.yml
+  classes: tonel
   ---
 
 extends ../lib/layouts/default
@@ -13,8 +14,8 @@ block top
       ul.reset
         li: +linkFor('/')
           +iconImage('fauno')
-        li: +linkFor('/tonel#drinks', 'Bebidas')
-        li: +linkFor('/tonel#food', 'Pequeña cocina')
+        li.shadow: +linkFor('/tonel#drinks', 'Bebidas')
+        li.shadow: +linkFor('/tonel#food', 'Pequeña cocina')
 
 block body
   .body.segment.center
@@ -23,7 +24,8 @@ block body
         img.fit(src='//placehold.it/960x420')
 
       .push
-        image.fit.max(src='tonel')
+        +linkFor('/tonel')
+          image.fit.max(src='tonel')
 
       each section in menu.sections
         .push.separator: a(name=section.name)

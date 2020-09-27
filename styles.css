@@ -405,12 +405,16 @@ small {
   margin-top: 10px;
 }
 .max {
-  max-width: 420px;
   display: block;
   margin: auto;
 }
 .max a {
   border: none;
+}
+@media screen and (min-width: 420px) {
+  .max {
+    max-width: 420px;
+  }
 }
 .caps {
   text-transform: uppercase;
@@ -452,6 +456,9 @@ footer .auto {
 footer .auto > * {
   width: 100%;
 }
+footer .auto:first-child {
+  max-width: 200px;
+}
 footer .map {
   display: block;
   overflow: hidden;
@@ -464,7 +471,8 @@ footer a {
 }
 footer a img {
   display: block;
-  width: 210px;
+  width: inherit;
+  height: inherit;
 }
 footer dl {
   margin-left: 20px;
@@ -490,8 +498,8 @@ footer dd + dt {
   position: absolute;
   line-height: 1.5;
   padding: 10px;
+  bottom: 100px;
   left: 54%;
-  top: 75%;
 }
 #info::before,
 #info::after {

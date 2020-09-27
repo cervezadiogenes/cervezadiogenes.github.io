@@ -486,12 +486,15 @@ em, small {
 }
 
 .max {
-  max-width: 420px;
   display: block;
   margin: auto;
 
   a {
     border: none;
+  }
+
+  @media screen and (min-width: 420px) {
+    max-width: 420px;
   }
 }
 
@@ -540,6 +543,10 @@ footer {
     > * {
       width: 100%;
     }
+
+    &:first-child {
+      max-width: 200px;
+    }
   }
 
   .map {
@@ -555,7 +562,8 @@ footer {
 
     img {
       display: block;
-      width: 210px;
+      width: inherit;
+      height: inherit;
     }
   }
 
@@ -589,8 +597,8 @@ footer {
   position: absolute;
   line-height: 1.5;
   padding: 10px;
+  bottom: 100px;
   left: 54%;
-  top: 75%;
 
   &::before, &::after {
     background-color: #ffe6b6;

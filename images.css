@@ -1,0 +1,17 @@
+[class^="x-"], [class*=" x-"] {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+i[class^="x-"], i[class*=" x-"] {
+  font-size: 0;
+  display: inline-block;
+}
+
+.x-ubicacion {
+  width: 420px; height: 420px;
+  background-image: url(images/ubicacion.jpg);
+}
+
+
+

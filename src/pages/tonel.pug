@@ -9,13 +9,13 @@ extends ../lib/layouts/default
 
 block top
   nav.fixed.segment.nosl
-    p Argentina #17, Col. Americana
-    div
+    p.caps Argentina #17, Col. Americana
+    div.caps
       ul.reset
         li: +linkFor('/')
           +iconImage('fauno')
-        li.shadow: +linkFor('/tonel/#drinks', 'Bebidas')
-        li.shadow: +linkFor('/tonel/#food', 'Pequeña cocina')
+        li: +linkFor('/tonel/#drinks', 'Bebidas').shadow
+        li: +linkFor('/tonel/#food', 'Pequeña cocina').shadow
 
 block body
   .body.segment.center
@@ -34,12 +34,12 @@ block body
         for item in section.items
           .push(class=item.class)
             if item.label
-              h3.caps= item.label
+              h3.caps.shadow= item.label
                 if item.unit
                   small (#{item.unit})
 
             if item.legend
-              h4.caps= item.legend
+              h4.caps.shadow= item.legend
 
             if item.notes
               small= item.notes

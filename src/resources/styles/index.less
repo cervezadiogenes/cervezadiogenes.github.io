@@ -307,6 +307,12 @@ em, small {
   height: auto;
 }
 
+.dark {
+  background-color: black;
+  color: white;
+  padding: 25px;
+}
+
 .push {
   background-color: rgba(255, 255, 255, .8);
   position: relative;
@@ -410,6 +416,10 @@ em, small {
 
   &.body {
     margin-top: 170px;
+
+    + .segment.body {
+      margin-top: 0;
+    }
   }
 
   > p {
@@ -517,6 +527,50 @@ h3 + .product {
 small {
   font-size: 12px;
   font-style: italic;
+}
+
+footer {
+  letter-spacing: .3em;
+
+  .auto {
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+    > * {
+      width: 100%;
+    }
+  }
+
+  .map {
+    display: block;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+
+  a {
+    padding: 0;
+    border: none;
+    display: block;
+
+    img {
+      display: block;
+      width: 210px;
+    }
+  }
+
+  dl {
+    margin-left: 20px;
+  }
+
+  dt:nth-child(1) {
+    font-size: 1.5em;
+  }
+
+  dt + dt,
+  dd + dt {
+    margin-top: 20px;
+  }
 }
 
 .desc {

@@ -8,7 +8,7 @@
 extends ../lib/layouts/default
 
 block head
-  includeTag(src='menu.css')
+  includeTag(src='sprites/menu.css')
 
 block top
   nav.fixed.segment.nosl
@@ -32,7 +32,7 @@ block body
         p: span Cerveza Artesanal
 
     each section in menu.sections
-      .push
+      .push.nosl
         a(name=section.name)
         .md-flex
           .md-half
@@ -42,7 +42,7 @@ block body
                   +prodList(item)
               .auto.icons
                 for icon in section.icons.left
-                  icon(src=`menu/${icon}`)
+                  icon(src=`sprites/menu/${icon}`)
           .md-half
             .flex
               .half
@@ -50,4 +50,18 @@ block body
                   +prodList(item)
               .auto.icons
                 for icon in section.icons.right
-                  icon(src=`menu/${icon}`)
+                  icon(src=`sprites/menu/${icon}`)
+
+  .body.segment
+    div: footer.push
+      .nosl.dark.flex
+        a.map(href='//www.google.com/maps/place/Tonel+de+Di%C3%B3genes/@20.676062,-103.361329,15z/data=!4m5!3m4!1s0x0:0x7f1c34ae5e61f002!8m2!3d20.676062!4d-103.361329' target='_blank')
+          image.fit(src='ubicacion' alt='Argentina #17, Col. Americana')
+
+        .auto
+          dl.caps.shadow
+            dt Horario
+            dt Martes a Sábado
+            dd 13:00 A 23:00
+            dt Domingo
+            dd 13:00 A 20:00

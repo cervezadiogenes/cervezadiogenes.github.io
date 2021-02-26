@@ -137,6 +137,11 @@ items:
       price: 85
       desc:
       - Aperol, prosecco y soda
+   
+    - name: Campari Spritz
+      price: 85
+      desc:
+      -Campari, prosecco y soda
 
     - name: Vermut Spritz
       price: 85
@@ -155,17 +160,17 @@ items:
     unit: 5 oz
     products:
       - name: Vilarnau, Brut Reserva Rosé
-        price: 85
+        price: 90
         desc:
         - Trepat-Pinot Noir, DO Cava, Cataluña, España
 
       - name: Vignerons D'Estézargues, Les Grandes Vignes
-        price: 85
+        price: 90
         desc:
         - Grenache Blanc-Clairette-Bourboulenc, AOC Côtes du Rhône, Francia
 
       - name: Vignerons D'Estézargues, Cuvée des Galets
-        price: 85
+        price: 90
         desc:
         - Grenache-Carignan-Syrah, AOC Côtes du Rhône, Francia
 
@@ -175,7 +180,7 @@ items:
     unit: 2 oz
     products:
       - name: Pelayo
-        price: 85
+        price: 95
         desc:
         - Gin larios, vermut y soda
 
@@ -188,19 +193,4 @@ items:
         price: 95
         desc:
         - Rocas ó highball
-
-  -
-    label: SAKE
-    classes: break
-    products:
-      - name: Funaguchi
-        unit: 200ml
-        price: 180
-        desc:
-        - Honjozo
-
-      - name: Neko Premium
-        unit: 180ml
-        price: 240
-        desc:
-        - Jumnai
+        

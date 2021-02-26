@@ -141,7 +141,7 @@ items:
     - name: Campari Spritz
       price: 85
       desc:
-      -Campari, prosecco y soda
+      - Campari, prosecco y soda
 
     - name: Vermut Spritz
       price: 85

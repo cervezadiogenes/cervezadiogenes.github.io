@@ -32,6 +32,11 @@ items:
         price: 85
         desc:
         - En aceite de oliva extra virgen y guindilla
+        
+      - name: Ensalada de anchoa y boquerón
+        price: 85
+        desc:
+        - Con tomate en aceite de oliva extra virgen
 
       - name: Pimientos asados
         price: 65
@@ -44,6 +49,7 @@ items:
         - Al horno con cebolla y huevo
 
       - name: Embutidos ibéricos
+        unit: 50g
         price: 90
         desc:
         - Salchichón de bellota con 6 meses de curación y pimienta negra
@@ -53,6 +59,11 @@ items:
         price: 75
         desc:
         - Boquerón, anchoa y pimiento asado
+      
+      - name: Pincho ezequiel
+        price: 75
+        desc:
+        - Pan, tomate, bonito, anchoa y guindilla
 
       - name: Plato de quesos
         unit: 150g aprox
@@ -77,7 +88,7 @@ items:
         - Pan shoku, jamón cocido, queso y pepinillos en vinagre
 
       - name: Sándwich tostado de serrano
-        price: 85
+        price: 95
         desc:
         - Pan baguette, serrano y manchego 3 leches, acompañado con chips
 
@@ -86,6 +97,11 @@ items:
         desc:
         - 25g de jamón de cerdo ibérico de bellota con 36 meses de curación
         - Denominación de Origen Extremadura
+        
+      - name: Gildas de Vallecas
+        price: 60
+        desc: 
+        - Oliva, boquerón, pimiento y anchoa
 
   right:
   -

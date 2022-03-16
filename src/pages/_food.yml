@@ -29,12 +29,12 @@ items:
         - En vinagre y aceite de oliva extra virgen
 
       - name: Ensalada de tomate y bonito
-        price: 85
+        price: 90
         desc:
         - En aceite de oliva extra virgen y guindilla
         
       - name: Ensalada de anchoa y boquerón
-        price: 85
+        price: 90
         desc:
         - Con tomate en aceite de oliva extra virgen
 
@@ -50,7 +50,7 @@ items:
 
       - name: Embutidos ibéricos
         unit: 50g
-        price: 90
+        price: 95
         desc:
         - Salchichón de bellota con 6 meses de curación y pimienta negra
         - Chorizo de bellota con 6 meses de curación y pimentón
@@ -67,7 +67,7 @@ items:
 
       - name: Plato de quesos
         unit: 150g aprox
-        price: 120
+        price: 130
         desc:
         - Pequeña selección de quesos de temporada
         - Estilos sujetos a disponibilidad
@@ -98,10 +98,6 @@ items:
         - 25g de jamón de cerdo ibérico de bellota con 36 meses de curación
         - Denominación de Origen Extremadura
         
-      - name: Gildas de Vallecas
-        price: 60
-        desc: 
-        - Oliva, boquerón, pimiento y anchoa
 
   right:
   -
@@ -110,7 +106,7 @@ items:
     notes: '*especiales de temporada ver pizarrón'
     products:
       - name: Porción de chips
-        price: 30
+        price: 35
         desc:
         - Sal de mar
 
@@ -125,7 +121,7 @@ items:
         - En vinagre
 
       - name: Papas fritas caseras con boquerones
-        price: 120
+        price: 125
         desc:
         - Acompañadas de olivas
 
@@ -134,24 +130,9 @@ items:
     classes: break
     products:
       - name: Mejillones
-        price: 60
+        price: 120
         desc:
         - En escabeche con papas fritas caseras
-
-      - name: Zamburiñas
-        price: 60
-        desc:
-        - En salsa de vieira y papas fritas caseras
-
-  -
-    label: LATAS
-    classes: break
-    products:
-      - name: Berberechos de rías gallegas
-        unit: 112g
-        price: 185
-        desc:
-        - Aliño de aceite extra virgen, limón amarillo y pimienta
 
   -
     label: DULCE
@@ -160,6 +141,6 @@ items:
       - name: Chocolatina
         price: 45
       - name: Croissant
-        price: 30
-      - name: Cheese cake
-        price: 70
+        price: 35
+      - name: Cheesecake Japonés
+        price: 75

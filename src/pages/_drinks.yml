@@ -21,34 +21,30 @@ items:
         price: 35
       - name: Schweppes
         unit: 275ml
-        price: 30
+        price: 35
       - name: Velvet Soda
         unit: 275ml
-        price: 40
-      - name: Espresso
-        price: 30
-      - name: Espresso americano
-        price: 35
-      - name: V60 / prensa
         price: 45
+      - name: Espresso
+        price: 35
+      - name: Espresso americano
+        price: 40
+      - name: V60 / prensa
+        price: 50
       - name: Cortado
-        price: 35
+        price: 40
       - name: Cappuccino
-        price: 35
+        price: 40
       - name: Latte
-        price: 35
-      - name: Infusión herbal
         price: 40
-      - name: Té verde
-        price: 40
-      - name: Té negro
+      - name: Té
         price: 40
       - name: Iced latte
-        price: 40
+        price: 45
       - name: Cold brew
-        price: 40
+        price: 45
       - name: Chocolate
-        price: 35
+        price: 40
 
   -
     label: CERVEZA
@@ -85,9 +81,6 @@ items:
       - name: Diógenes IPA
         unit: 355ml
         price: 60
-      - name: Antístenes Golden Ale
-        unit: 355ml
-        price: 50
 
   -
     legend: OTRAS CERVEZAS
@@ -98,13 +91,13 @@ items:
         price: 45
       - name: Modelo Especial
         unit: 355ml
-        price: 35
+        price: 40
       - name: Corona
         unit: 355ml
-        price: 30
+        price: 35
       - name: Victoria
         unit: 355ml
-        price: 30
+        price: 35
 
   right:
   -
@@ -129,30 +122,24 @@ items:
       - En las rocas ó con soda
 
     - name: Milano Torino Americano
-      price: 85
+      price: 90
       desc:
       - Cinzano, campari y soda
 
     - name: Aperol Spritz
-      price: 85
+      price: 90
       desc:
       - Aperol, prosecco y soda
    
     - name: Campari Spritz
-      price: 85
+      price: 90
       desc:
       - Campari, prosecco y soda
 
     - name: Vermut Spritz
-      price: 85
+      price: 90
       desc:
       - Vermut rojo ó blanco, prosecco y soda
-
-    - name: Madeira Henriques & Henriques
-      unit: 59ml
-      price: 105
-    - name: Manzanilla La Guita
-      price: 105
 
   -
     label: VINO POR COPA
@@ -160,17 +147,17 @@ items:
     unit: 5 oz
     products:
       - name: Vilarnau, Brut Reserva Rosé
-        price: 90
+        price: 95
         desc:
         - Trepat-Pinot Noir, DO Cava, Cataluña, España
 
       - name: Vignerons D'Estézargues, Les Grandes Vignes
-        price: 90
+        price: 95
         desc:
         - Grenache Blanc-Clairette-Bourboulenc, AOC Côtes du Rhône, Francia
 
       - name: Vignerons D'Estézargues, Cuvée des Galets
-        price: 90
+        price: 95
         desc:
         - Grenache-Carignan-Syrah, AOC Côtes du Rhône, Francia
 

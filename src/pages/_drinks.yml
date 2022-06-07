@@ -53,10 +53,10 @@ items:
     products:
       - name: Caña de barril
         unit: 325 ml
-        price: 50
+        price: 60
       - name: Pinta de barril
         unit: 414 ml
-        price: 70
+        price: 80
       - name: Chinaski
         unit: sujeto a disponibilidad
         options:
@@ -74,13 +74,13 @@ items:
     products:
       - name: Diógenes Pale Ale
         unit: 355ml
-        price: 60
+        price: 70
       - name: Diógenes Pilsner
         unit: 355ml
-        price: 60
+        price: 70
       - name: Diógenes IPA
         unit: 355ml
-        price: 60
+        price: 70
 
   -
     legend: OTRAS CERVEZAS

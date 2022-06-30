@@ -111,7 +111,7 @@ items:
         - Sal de mar
 
       - name: Pistaches
-        price: 35
+        price: 40
         desc:
         - Rostizados con sal
 
@@ -120,7 +120,7 @@ items:
         desc:
         - En vinagre
 
-      - name: Papas fritas caseras con boquerones
+      - name: Chips con boquerones
         price: 125
         desc:
         - Acompañadas de olivas
@@ -132,7 +132,7 @@ items:
       - name: Mejillones
         price: 120
         desc:
-        - En escabeche con papas fritas caseras
+        - En escabeche con chips
 
   -
     label: DULCE

@@ -62,23 +62,17 @@ items:
         options:
         - name: caña
           unit: 325ml
-          price: 65
+          price: 85
         - name: pinta
           unit: 414ml
-          price: 85
+          price: 105
 
   -
     class: clear
     legend: BOTELLA
     notes: Pregunta por estilos de temporada y ediciones limitadas disponibles
     products:
-      - name: Diógenes Pale Ale
-        unit: 355ml
-        price: 70
-      - name: Diógenes Pilsner
-        unit: 355ml
-        price: 70
-      - name: Diógenes IPA
+      - name: Botella Diógenes
         unit: 355ml
         price: 70
 

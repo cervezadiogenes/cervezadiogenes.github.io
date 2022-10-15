@@ -126,15 +126,6 @@ items:
         - Acompañadas de olivas
 
   -
-    label: CONSERVAS
-    classes: break
-    products:
-      - name: Mejillones
-        price: 120
-        desc:
-        - En escabeche con chips
-
-  -
     label: DULCE
     classes: break
     products:

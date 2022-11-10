@@ -29,8 +29,6 @@ items:
         price: 35
       - name: Espresso americano
         price: 40
-      - name: V60 / prensa
-        price: 50
       - name: Cortado
         price: 40
       - name: Cappuccino
@@ -140,11 +138,6 @@ items:
     classes: break
     unit: 5 oz
     products:
-      - name: Vilarnau, Brut Reserva Rosé
-        price: 95
-        desc:
-        - Trepat-Pinot Noir, DO Cava, Cataluña, España
-
       - name: Vignerons D'Estézargues, Les Grandes Vignes
         price: 95
         desc:

@@ -26,19 +26,17 @@ items:
         unit: 275ml
         price: 45
       - name: Espresso
-        price: 35
+        price: 40
       - name: Espresso americano
-        price: 40
-      - name: Cortado
-        price: 40
-      - name: Cappuccino
-        price: 40
-      - name: Latte
-        price: 40
-      - name: Té
-        price: 40
-      - name: Iced latte
         price: 45
+      - name: Cortado
+        price: 45
+      - name: Cappuccino
+        price: 50
+      - name: Latte
+        price: 50
+      - name: Iced latte
+        price: 55
       - name: Cold brew
         price: 45
       - name: Chocolate
@@ -99,39 +97,43 @@ items:
     products:
 
     - name: Vermut rojo ó blanco
-      price: 75
+      price: 85
       desc:
       - En las rocas ó con soda
 
     - name: Cynar
-      price: 85
+      price: 90
       desc:
       - En las rocas ó con soda
 
     - name: Amaro Averna
-      price: 85
+      price: 90
       desc:
       - En las rocas ó con soda
 
     - name: Milano Torino Americano
-      price: 90
+      price: 95
       desc:
       - Cinzano, campari y soda
 
     - name: Aperol Spritz
-      price: 90
+      price: 100
       desc:
       - Aperol, prosecco y soda
    
     - name: Campari Spritz
-      price: 90
+      price: 100
       desc:
       - Campari, prosecco y soda
 
     - name: Vermut Spritz
-      price: 90
+      price: 100
       desc:
       - Vermut rojo ó blanco, prosecco y soda
+    - name: Porto Tónica
+      price: 95
+      desc:
+      - Porto, agua tónica y soda
 
   -
     label: VINO POR COPA
@@ -159,12 +161,10 @@ items:
         - Gin larios, vermut y soda
 
       - name: Beefeater
-        price: 95
+        price: 115
         desc:
         - Tónica
 
-      - name: Wild Turkey Rye Whiskey
-        price: 95
-        desc:
-        - Rocas ó highball
+      - name: Maker's Mark
+        price: 115
         

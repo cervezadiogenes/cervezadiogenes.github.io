@@ -24,22 +24,22 @@ items:
 
       - name: Boquerones
         unit: 6 piezas
-        price: 95
+        price: 105
         desc:
         - En vinagre y aceite de oliva extra virgen
 
       - name: Ensalada de tomate y bonito
-        price: 90
+        price: 100
         desc:
         - En aceite de oliva extra virgen y guindilla
         
       - name: Ensalada de anchoa y boquerón
-        price: 90
+        price: 95
         desc:
         - Con tomate en aceite de oliva extra virgen
 
       - name: Pimientos asados
-        price: 65
+        price: 70
         desc:
         - En vinagre y aceite de oliva extra virgen
 
@@ -50,30 +50,30 @@ items:
 
       - name: Embutidos ibéricos
         unit: 50g
-        price: 95
+        price: 100
         desc:
         - Salchichón de bellota con 6 meses de curación y pimienta negra
         - Chorizo de bellota con 6 meses de curación y pimentón
 
       - name: Pinchos de la casa
-        price: 75
+        price: 80
         desc:
         - Boquerón, anchoa y pimiento asado
       
       - name: Pincho ezequiel
-        price: 75
+        price: 80
         desc:
         - Pan, tomate, bonito, anchoa y guindilla
 
       - name: Plato de quesos
         unit: 150g aprox
-        price: 130
+        price: 135
         desc:
         - Pequeña selección de quesos de temporada
         - Estilos sujetos a disponibilidad
 
       - name: Tosta de jamón
-        price: 95
+        price: 105
         desc:
         - Pan, tomate, ibérico de recebo, aceite de oliva extra virgen
 
@@ -82,22 +82,18 @@ items:
         desc:
         - Pan, tomate, queso de oveja semi curado y anchoa del cantábrico
 
-      - name: Sándwich tostado
-        price: 95
-        desc:
-        - Pan shoku, jamón cocido, queso y pepinillos en vinagre
-
       - name: Sándwich tostado de serrano
-        price: 95
+        price: 100
         desc:
         - Pan baguette, serrano y manchego 3 leches, acompañado con chips
 
       - name: Jamón de bellota
-        price: 140
+        price: 145
         desc:
         - 25g de jamón de cerdo ibérico de bellota con 36 meses de curación
         - Denominación de Origen Extremadura
-        
+      - name: Hot-Dog
+        price: 65
 
   right:
   -
@@ -116,12 +112,12 @@ items:
         - Rostizados con sal
 
       - name: Pepinillos
-        price: 25
+        price: 30
         desc:
         - En vinagre
 
       - name: Chips con boquerones
-        price: 125
+        price: 130
         desc:
         - Acompañadas de olivas
 

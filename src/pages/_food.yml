@@ -92,8 +92,11 @@ items:
         desc:
         - 25g de jamón de cerdo ibérico de bellota con 36 meses de curación
         - Denominación de Origen Extremadura
+        
       - name: Hot-Dog
         price: 65
+        desc:
+        -Salchicha viena, pan y pepinillo
 
   right:
   -

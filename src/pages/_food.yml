@@ -43,11 +43,6 @@ items:
         desc:
         - En vinagre y aceite de oliva extra virgen
 
-      - name: Tarta de patata
-        price: 65
-        desc:
-        - Al horno con cebolla y huevo
-
       - name: Embutidos ibéricos
         unit: 50g
         price: 100

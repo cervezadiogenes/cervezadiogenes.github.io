@@ -91,7 +91,7 @@ items:
       - name: Hot-Dog
         price: 65
         desc:
-        -Salchicha viena, pan y pepinillo
+        - Salchicha viena, pan y pepinillo
 
   right:
   -

@@ -71,6 +71,9 @@ items:
       - name: Botella Diógenes
         unit: 355ml
         price: 70
+      - name: Botella Chinaski
+        unit: 660ml
+        price: 165  
 
   -
     legend: OTRAS CERVEZAS

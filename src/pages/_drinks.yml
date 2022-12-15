@@ -62,6 +62,15 @@ items:
         - name: pinta
           unit: 414ml
           price: 105
+      - name: Cerveza de Temporada
+        unit: preguntar por estilos y disponibilidad
+        options:
+        - name: caña
+          unit: 325ml
+          price: 85
+        - name: pinta
+          unit: 414ml
+          price: 105
 
   -
     class: clear

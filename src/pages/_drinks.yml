@@ -53,8 +53,6 @@ items:
       - name: Pinta de barril
         unit: 414 ml
         price: 80
-      - name: Chinaski
-        unit: sujeto a disponibilidad
         options:
         - name: caña
           unit: 325ml
@@ -80,9 +78,6 @@ items:
       - name: Botella Diógenes
         unit: 355ml
         price: 70
-      - name: Botella Chinaski
-        unit: 660ml
-        price: 165  
 
   -
     legend: OTRAS CERVEZAS

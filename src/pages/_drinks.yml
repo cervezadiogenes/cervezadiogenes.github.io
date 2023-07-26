@@ -53,13 +53,6 @@ items:
       - name: Pinta de barril
         unit: 414 ml
         price: 80
-        options:
-        - name: caña
-          unit: 325ml
-          price: 85
-        - name: pinta
-          unit: 414ml
-          price: 105
       - name: Cerveza de Temporada
         unit: preguntar por estilos y disponibilidad
         options:
@@ -104,27 +97,27 @@ items:
     products:
 
     - name: Vermut rojo ó blanco
-      price: 85
+      price: 95
       desc:
       - En las rocas ó con soda
 
     - name: Cynar
-      price: 90
+      price: 95
       desc:
       - En las rocas ó con soda
 
     - name: Amaro Averna
-      price: 90
+      price: 95
       desc:
       - En las rocas ó con soda
 
     - name: Milano Torino Americano
-      price: 95
+      price: 105
       desc:
       - Cinzano, campari y soda
 
     - name: Aperol Spritz
-      price: 100
+      price: 125
       desc:
       - Aperol, prosecco y soda
    
@@ -134,11 +127,11 @@ items:
       - Campari, prosecco y soda
 
     - name: Vermut Spritz
-      price: 100
+      price: 125
       desc:
       - Vermut rojo ó blanco, prosecco y soda
     - name: Porto Tónica
-      price: 95
+      price: 115
       desc:
       - Porto, agua tónica y soda
 
@@ -148,12 +141,12 @@ items:
     unit: 5 oz
     products:
       - name: Vignerons D'Estézargues, Les Grandes Vignes
-        price: 95
+        price: 105
         desc:
         - Grenache Blanc-Clairette-Bourboulenc, AOC Côtes du Rhône, Francia
 
       - name: Vignerons D'Estézargues, Cuvée des Galets
-        price: 95
+        price: 105
         desc:
         - Grenache-Carignan-Syrah, AOC Côtes du Rhône, Francia
 
@@ -172,6 +165,11 @@ items:
         desc:
         - Tónica
 
-      - name: Maker's Mark
+      - name: Wild Turkey Rye
         price: 115
-        
+      
+      - name: Negroni
+        price: 125
+
+      - name: Boulevardier
+        price: 130

@@ -82,6 +82,11 @@ items:
         desc:
         - Pan baguette, serrano y manchego 3 leches, acompañado con chips
 
+      - name: Sándwich tostado de Jamón
+        price: 100
+        desc:
+        - Pan Shoku, Jamón York, queso y dijon, acompañado con chips y pepinillos.
+
       - name: Jamón de bellota
         price: 145
         desc:
@@ -123,9 +128,5 @@ items:
     label: DULCE
     classes: break
     products:
-      - name: Chocolatina
-        price: 45
-      - name: Croissant
-        price: 35
       - name: Cheesecake Japonés
-        price: 80
+        price: 85

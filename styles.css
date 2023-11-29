@@ -380,6 +380,7 @@ small {
 .product {
   font-family: eideticneo_boldregular;
   position: relative;
+  align-items: end;
 }
 .product span:nth-child(2),
 .product span > span {

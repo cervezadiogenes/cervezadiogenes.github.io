@@ -17,13 +17,13 @@ items:
     class: clear
     products:
       - name: Agua mineral
-        unit: 355ml
+        unit: 355 ml
         price: 35
       - name: Schweppes
-        unit: 275ml
+        unit: 275 ml
         price: 35
       - name: Velvet Soda
-        unit: 275ml
+        unit: 275 ml
         price: 45
       - name: Espresso
         price: 40
@@ -57,11 +57,23 @@ items:
         unit: preguntar por estilos y disponibilidad
         options:
         - name: caña
-          unit: 325ml
+          unit: 325 ml
           price: 85
         - name: pinta
-          unit: 414ml
+          unit: 414 ml
           price: 105
+
+  -
+    label: "SERIES DE ESPUMA #30" 
+    legend: TRIPLE CITRA IPA
+    class: clear
+    products:
+      - name: Caña de barril
+        unit: 325 ml
+        price: 105
+      - name: Pinta de barril
+        unit: 414 ml
+        price: 125
 
   -
     class: clear
@@ -69,7 +81,7 @@ items:
     notes: Pregunta por estilos de temporada y ediciones limitadas disponibles
     products:
       - name: Botella Diógenes
-        unit: 355ml
+        unit: 355 ml
         price: 70
 
   -
@@ -77,16 +89,16 @@ items:
     class: clear
     products:
       - name: Stella Artois
-        unit: 330ml
+        unit: 330 ml
         price: 45
       - name: Modelo Especial
-        unit: 355ml
+        unit: 355 ml
         price: 40
       - name: Corona
-        unit: 355ml
+        unit: 355 ml
         price: 35
       - name: Victoria
-        unit: 355ml
+        unit: 355 ml
         price: 35
 
   right:

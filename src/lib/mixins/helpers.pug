@@ -44,7 +44,7 @@ mixin prodList(item)
   if item.label
     h3.caps.shadow(class=item.classes || '')= item.label
       if item.unit
-        small (#{item.unit})
+        small (!{item.unit.replace(' ', '&nbsp;')})
 
   if item.legend
     h4.caps.shadow= item.legend

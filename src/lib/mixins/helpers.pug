@@ -36,7 +36,7 @@ mixin prodItem(meta, italics)
         else
           = meta.name
         if meta.unit
-          small (#{meta.unit})
+          small (!{meta.unit.replace(' ', '&nbsp;')})
     if meta.price
       span $#{meta.price}
 

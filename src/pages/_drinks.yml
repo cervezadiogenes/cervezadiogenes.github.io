@@ -63,17 +63,17 @@ items:
           unit: 414 ml
           price: 105
 
-  -
-    label: "SERIES DE ESPUMA #30" 
-    legend: TRIPLE CITRA IPA
-    class: clear
-    products:
-      - name: Caña de barril
-        unit: 325 ml
-        price: 105
-      - name: Pinta de barril
-        unit: 414 ml
-        price: 125
+  #-
+  #  label: "SERIES DE ESPUMA #30" 
+  #  legend: TRIPLE CITRA IPA
+  #  class: clear
+  #  products:
+  #    - name: Caña de barril
+  #      unit: 325 ml
+  #      price: 105
+  #    - name: Pinta de barril
+  #      unit: 414 ml
+  #      price: 125
 
   -
     class: clear

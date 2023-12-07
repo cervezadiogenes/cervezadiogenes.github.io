@@ -8,7 +8,7 @@
 extends ../lib/layouts/default
 
 block head
-  includeTag(src='sprites/menu.css')
+  import(from='menu.css')
   title= title
 
 block top
@@ -43,7 +43,7 @@ block body
                   +prodList(item)
               .auto.icons
                 for icon in section.icons.left
-                  icon(src=`sprites/menu/${icon}`)
+                  icon(src=`menu/${icon}`)
           .md-half
             .flex
               .half
@@ -51,7 +51,7 @@ block body
                   +prodList(item)
               .auto.icons
                 for icon in section.icons.right
-                  icon(src=`sprites/menu/${icon}`)
+                  icon(src=`menu/${icon}`)
 
   .body.segment
     div: footer.push

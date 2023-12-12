@@ -15,7 +15,7 @@
     "start": "npm run dev",
     "dev": "npm run build -- -wdp 3001",
     "dist": "npm run build -- -fq",
-    "build": "mortero -I.gitignore --platform browser",
+    "build": "mortero -dcpublic:. -I.gitignore --platform browser",
     "check": "eslint 'src/**/*.{js,pug}'",
     "predist": "npm run check"
   },

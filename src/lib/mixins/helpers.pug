@@ -1,4 +1,4 @@
-- var segment = self && self.parent.split('/').slice(2).join('/').replace(/\.\w+$/, '')
+- var segment = self && self.filename.split('/').slice(2).join('/').replace(/\.\w+$/, '')
 - var url = `/${segment === 'index' ? '' : segment || ''}`;
 
 mixin linkFor(path, title, external)
@@ -16,9 +16,9 @@ mixin linkFor(path, title, external)
 
 mixin iconImage(name, forced)
   if forced || env.NODE_ENV !== 'production'
-    srcFile(src=`src/resources/sprites/${name}.svg`)
+    icon(src=`src/resources/sprites/${name}.svg`)
   else
-    svgIcon(src=name)
+    icon(src=name)
 
 mixin getVideo(name, width, height)
   video(controls poster=`${ROOT || ''}/video/${name}.jpg` width=width height=height)&attributes(attributes)

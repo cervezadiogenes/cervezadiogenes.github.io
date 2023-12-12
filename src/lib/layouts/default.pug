@@ -10,7 +10,7 @@ html.no-js(lang='en')
     block head
     include ../partials/head
 
-    includeTag(src='styles.css sprites.css')
+    import(from='styles.css images.css')
   body(class=classes || '')
     block top
     block body

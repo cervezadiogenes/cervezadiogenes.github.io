@@ -13,8 +13,9 @@
     "now-build": "npm run dist",
     "now-dev": "npm run dev",
     "start": "npm run dev",
-    "dev": "tarima watch -d",
-    "dist": "tarima -mqe $NODE_ENV",
+    "dev": "npm run build -- -wdp 3001",
+    "dist": "npm run build -- -fq",
+    "build": "mortero -dcpublic:. -I.gitignore --platform browser",
     "check": "eslint 'src/**/*.{js,pug}'",
     "predist": "npm run check"
   },
@@ -23,50 +24,23 @@
     "url": "https://github.com/tacoss/plate.git",
     "issues": "https://github.com/tacoss/plate/issues"
   },
-  "tarima": {
-    "from": "src",
-    "public": "build",
-    "copy": {
-      "public": "."
-    },
+  "mortero": {
+    "bundle": [
+      "**/{main,index}.js"
+    ],
     "filter": [
       "!**/{lib,shared,components}/**",
       "!**/_*"
     ],
-    "bundle": [
-      "**/{main,index}.js"
-    ],
     "rename": [
-      "**/pages/**/!(index).html:{basedir}/{name}/index.html",
-      "**/{pages,resources}/**:{fullpath/1}",
-      "**/index.(css|js):{basedir}.{ext}",
-      "**/app/**:{fullpath/1}",
-      "**:{fullpath/1}"
+      "src/**:{filepath/1}",
+      "**/index.(css|js):{basedir}{ext}",
+      "**/{pages,resources}/**:{filepath/1}",
+      "**/!(index|404).html:{basedir}/{name}/index.html"
     ],
-    "ignoreFiles": [
-      ".gitignore"
-    ],
-    "plugins": [
-      "talavera"
-    ],
-    "bundleOptions": {
-      "extensions": {
-        "js": "es6",
-        "css": "less",
-        "gql": "json"
-      },
-      "rollup": {
-        "context": "window",
-        "plugins": [
-          "rollup-plugin-node-resolve",
-          "rollup-plugin-commonjs"
-        ]
-      },
+    "options": {
       "kramed": {
         "highlight": true
-      },
-      "buble": {
-        "objectAssign": "Object.assign"
       },
       "less": {
         "plugins": [
@@ -76,31 +50,16 @@
     }
   },
   "devDependencies": {
-    "acorn": ">=6.4.1",
-    "buble": "^0.19.6",
     "eslint": "^6.4.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-pug": "^1.2.2",
     "eslint-utils": ">=1.4.1",
-    "highlight.js": "^10.4.1",
-    "html-minifier": "^4.0.0",
-    "jpeg-js": ">=0.4.0",
-    "js-yaml": ">=3.13.1",
     "kramed": "^0.5.6",
-    "less": "^3.9.0",
+    "less": "^3.13.1",
     "less-plugin-autoprefix": "^2.0.0",
-    "lodash": ">=4.17.21",
-    "lodash.template": ">=4.5.0",
-    "minimist": ">=1.2.2",
-    "pug": "^3.0.1",
-    "rollup-plugin-commonjs": "^10.1.0",
-    "rollup-plugin-node-resolve": "^5.2.0",
-    "svql": "0.0.27",
-    "talavera": "^0.8.1",
-    "tarima": "^4.8.5",
-    "terser": "^4.3.1",
-    "yargs-parser": ">=13.1.2",
-    "yrv": "0.0.25"
+    "live-server": "^1.2.2",
+    "mortero": "^0.0.115",
+    "pug": "^2.0.4"
   }
 }

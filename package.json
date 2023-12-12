@@ -14,7 +14,7 @@
     "now-dev": "npm run dev",
     "start": "npm run dev",
     "dev": "npm run build -- -wdp 3001",
-    "dist": "npm run build -- -fq",
+    "dist": "npm run build -- -q",
     "build": "mortero -dcpublic:. -I.gitignore --platform browser",
     "check": "eslint 'src/**/*.{js,pug}'",
     "predist": "npm run check"
@@ -59,7 +59,7 @@
     "less": "^3.13.1",
     "less-plugin-autoprefix": "^2.0.0",
     "live-server": "^1.2.2",
-    "mortero": "^0.0.115",
+    "mortero": "^0.0.116",
     "pug": "^2.0.4"
   }
 }

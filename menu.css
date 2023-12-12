@@ -1,0 +1,198 @@
+i[class^="icon-menu-"], i[class*=" icon-menu-"] {
+  display: inline-block;
+  background-image: url(menu.png);
+  font-size: 0;
+  background-repeat: no-repeat;
+  background-size: 231px 2269px;
+}
+
+i.icon-menu-boqueron {
+  width: 204px; height: 58px;
+  background-position: -0px -0px;
+}
+i.icon-menu-embutido {
+  width: 231px; height: 59px;
+  background-position: -0px -60px;
+}
+i.icon-menu-sandwich {
+  width: 132px; height: 62px;
+  background-position: -0px -121px;
+}
+i.icon-menu-oliva {
+  width: 58px; height: 79px;
+  background-position: -0px -185px;
+}
+i.icon-menu-dulce {
+  width: 157px; height: 93px;
+  background-position: -0px -266px;
+}
+i.icon-menu-conservas {
+  width: 150px; height: 100px;
+  background-position: -0px -361px;
+}
+i.icon-menu-jamon {
+  width: 226px; height: 101px;
+  background-position: -0px -463px;
+}
+i.icon-menu-cafe {
+  width: 158px; height: 107px;
+  background-position: -0px -566px;
+}
+i.icon-menu-tentempies {
+  width: 162px; height: 111px;
+  background-position: -0px -675px;
+}
+i.icon-menu-sake {
+  width: 101px; height: 112px;
+  background-position: -0px -788px;
+}
+i.icon-menu-latas {
+  width: 180px; height: 138px;
+  background-position: -0px -902px;
+}
+i.icon-menu-bebida {
+  width: 90px; height: 155px;
+  background-position: -0px -1042px;
+}
+i.icon-menu-vino {
+  width: 87px; height: 185px;
+  background-position: -0px -1199px;
+}
+i.icon-menu-cerveza {
+  width: 92px; height: 195px;
+  background-position: -0px -1386px;
+}
+i.icon-menu-espiritu {
+  width: 87px; height: 204px;
+  background-position: -0px -1583px;
+}
+i.icon-menu-aperitivo {
+  width: 121px; height: 219px;
+  background-position: -0px -1789px;
+}
+i.icon-menu-botella {
+  width: 66px; height: 259px;
+  background-position: -0px -2010px;
+}
+
+
+
+
+
+@media screen and (max-width: 767px) {
+  i.icon-menu-tentempies {
+    width: 135px; height: 92.5px;
+    background-position: -0px -562.5px;
+    background-size: 192.5px 1890.8333333333335px;
+  }
+  i.icon-menu-latas {
+    width: 150px; height: 115px;
+    background-position: -0px -751.6666666666667px;
+    background-size: 192.5px 1890.8333333333335px;
+  }
+  i.icon-menu-jamon {
+    width: 188.33333333333334px; height: 84.16666666666667px;
+    background-position: -0px -385.83333333333337px;
+    background-size: 192.5px 1890.8333333333335px;
+  }
+  i.icon-menu-embutido {
+    width: 192.5px; height: 49.16666666666667px;
+    background-position: -0px -50px;
+    background-size: 192.5px 1890.8333333333335px;
+  }
+  i.icon-menu-dulce {
+    width: 130.83333333333334px; height: 77.5px;
+    background-position: -0px -221.66666666666669px;
+    background-size: 192.5px 1890.8333333333335px;
+  }
+  i.icon-menu-cafe {
+    width: 131.66666666666669px; height: 89.16666666666667px;
+    background-position: -0px -471.6666666666667px;
+    background-size: 192.5px 1890.8333333333335px;
+  }
+  i.icon-menu-boqueron {
+    width: 170px; height: 48.333333333333336px;
+    background-position: -0px -0px;
+    background-size: 192.5px 1890.8333333333335px;
+  }
+
+}
+
+@media screen and (max-width: 519px) {
+  i.icon-menu-tentempies {
+    width: 101.25px; height: 69.375px;
+    background-position: -0px -421.875px;
+    background-size: 144.375px 1418.125px;
+  }
+  i.icon-menu-latas {
+    width: 112.5px; height: 86.25px;
+    background-position: -0px -563.75px;
+    background-size: 144.375px 1418.125px;
+  }
+  i.icon-menu-jamon {
+    width: 141.25px; height: 63.125px;
+    background-position: -0px -289.375px;
+    background-size: 144.375px 1418.125px;
+  }
+  i.icon-menu-embutido {
+    width: 144.375px; height: 36.875px;
+    background-position: -0px -37.5px;
+    background-size: 144.375px 1418.125px;
+  }
+  i.icon-menu-dulce {
+    width: 98.125px; height: 58.125px;
+    background-position: -0px -166.25px;
+    background-size: 144.375px 1418.125px;
+  }
+  i.icon-menu-cafe {
+    width: 98.75px; height: 66.875px;
+    background-position: -0px -353.75px;
+    background-size: 144.375px 1418.125px;
+  }
+  i.icon-menu-boqueron {
+    width: 127.5px; height: 36.25px;
+    background-position: -0px -0px;
+    background-size: 144.375px 1418.125px;
+  }
+
+}
+
+@media screen and (max-width: 319px) {
+  i.icon-menu-tentempies {
+    width: 90px; height: 61.666666666666664px;
+    background-position: -0px -375px;
+    background-size: 128.33333333333334px 1260.5555555555554px;
+  }
+  i.icon-menu-latas {
+    width: 100px; height: 76.66666666666667px;
+    background-position: -0px -501.1111111111111px;
+    background-size: 128.33333333333334px 1260.5555555555554px;
+  }
+  i.icon-menu-jamon {
+    width: 125.55555555555556px; height: 56.11111111111111px;
+    background-position: -0px -257.22222222222223px;
+    background-size: 128.33333333333334px 1260.5555555555554px;
+  }
+  i.icon-menu-embutido {
+    width: 128.33333333333334px; height: 32.77777777777778px;
+    background-position: -0px -33.333333333333336px;
+    background-size: 128.33333333333334px 1260.5555555555554px;
+  }
+  i.icon-menu-dulce {
+    width: 87.22222222222221px; height: 51.666666666666664px;
+    background-position: -0px -147.77777777777777px;
+    background-size: 128.33333333333334px 1260.5555555555554px;
+  }
+  i.icon-menu-cafe {
+    width: 87.77777777777777px; height: 59.44444444444444px;
+    background-position: -0px -314.44444444444446px;
+    background-size: 128.33333333333334px 1260.5555555555554px;
+  }
+  i.icon-menu-boqueron {
+    width: 113.33333333333333px; height: 32.22222222222222px;
+    background-position: -0px -0px;
+    background-size: 128.33333333333334px 1260.5555555555554px;
+  }
+
+}
+

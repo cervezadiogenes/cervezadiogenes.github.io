@@ -1,22 +1,22 @@
-[class^="x-"], [class*=" x-"] {
+[class^="icon-"], [class*=" icon-"] {
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
-i[class^="x-"], i[class*=" x-"] {
+i[class^="icon-"], i[class*=" icon-"] {
   font-size: 0;
   display: inline-block;
 }
 
-.x-ubicacion {
+.icon-ubicacion {
   width: 420px; height: 420px;
   background-image: url(images/ubicacion.jpg);
 }
-.x-tonel {
+.icon-tonel {
   width: 1958px; height: 315px;
   background-image: url(images/tonel.png);
 }
-.x-amarillo {
+.icon-amarillo {
   width: 800px; height: 800px;
   background-image: url(images/amarillo.png);
 }

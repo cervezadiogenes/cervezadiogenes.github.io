@@ -51,21 +51,20 @@ items:
         - Chorizo de bellota con 6 meses de curación y pimentón
 
       - name: Pinchos de la casa
-        price: 80
+        price: 85
         desc:
         - Boquerón, anchoa y pimiento asado
       
       - name: Pincho ezequiel
-        price: 80
+        price: 85
         desc:
         - Pan, tomate, bonito, anchoa y guindilla
 
-      - name: Plato de quesos
+      - name: Rueda de queso
         unit: 150g aprox
         price: 135
         desc:
-        - Pequeña selección de quesos de temporada
-        - Estilos sujetos a disponibilidad
+        - Queso brie o camembert con pan y mermelada
 
       - name: Tosta de jamón
         price: 105
@@ -73,19 +72,19 @@ items:
         - Pan, tomate, ibérico de recebo, aceite de oliva extra virgen
 
       - name: Tosta manchega
-        price: 95
+        price: 105
         desc:
         - Pan, tomate, queso de oveja semi curado y anchoa del cantábrico
 
       - name: Sándwich tostado de serrano
-        price: 100
+        price: 105
         desc:
         - Pan baguette, serrano y manchego 3 leches, acompañado con chips
 
       - name: Sándwich tostado de Jamón
-        price: 100
+        price: 105
         desc:
-        - Pan Shoku, Jamón York, queso y dijon, acompañado con chips y pepinillos.
+        - Pan Shoku, Jamón York, queso y dijon, acompañado con chips y pepinillos
 
       - name: Jamón de bellota
         price: 145

@@ -24,7 +24,7 @@ items:
         price: 35
       - name: Velvet Soda
         unit: 275 ml
-        price: 45
+        price: 55
       - name: Espresso
         price: 40
       - name: Espresso americano
@@ -49,10 +49,10 @@ items:
     products:
       - name: Caña de barril
         unit: 325 ml
-        price: 60
+        price: 65
       - name: Pinta de barril
         unit: 414 ml
-        price: 80
+        price: 85
       - name: Cerveza de Temporada
         unit: preguntar por estilos y disponibilidad
         options:
@@ -82,7 +82,7 @@ items:
     products:
       - name: Botella Diógenes
         unit: 355 ml
-        price: 70
+        price: 75
 
   -
     legend: OTRAS CERVEZAS
@@ -90,16 +90,16 @@ items:
     products:
       - name: Stella Artois
         unit: 330 ml
-        price: 45
+        price: 50
       - name: Modelo Especial
         unit: 355 ml
-        price: 40
+        price: 45
       - name: Corona
         unit: 355 ml
-        price: 35
+        price: 40
       - name: Victoria
         unit: 355 ml
-        price: 35
+        price: 40
 
   right:
   -
@@ -114,17 +114,17 @@ items:
       - En las rocas ó con soda
 
     - name: Cynar
-      price: 95
+      price: 105
       desc:
       - En las rocas ó con soda
 
     - name: Amaro Averna
-      price: 95
+      price: 105
       desc:
       - En las rocas ó con soda
 
     - name: Milano Torino Americano
-      price: 105
+      price: 110
       desc:
       - Cinzano, campari y soda
 
@@ -143,9 +143,13 @@ items:
       desc:
       - Vermut rojo ó blanco, prosecco y soda
     - name: Porto Tónica
-      price: 115
+      price: 120
       desc:
       - Porto, agua tónica y soda
+    - name: Fernando
+      price: 125
+      desc:
+      - Fernet Branca con refresco de cola
 
   -
     label: VINO POR COPA
@@ -153,12 +157,12 @@ items:
     unit: 5 oz
     products:
       - name: Vignerons D'Estézargues, Les Grandes Vignes
-        price: 105
+        price: 110
         desc:
         - Grenache Blanc-Clairette-Bourboulenc, AOC Côtes du Rhône, Francia
 
       - name: Vignerons D'Estézargues, Cuvée des Galets
-        price: 105
+        price: 110
         desc:
         - Grenache-Carignan-Syrah, AOC Côtes du Rhône, Francia
 
@@ -168,20 +172,20 @@ items:
     unit: 2 oz
     products:
       - name: Pelayo
-        price: 95
+        price: 105
         desc:
         - Gin larios, vermut y soda
 
       - name: Beefeater
-        price: 115
+        price: 125
         desc:
         - Tónica
 
       - name: Wild Turkey Rye
-        price: 115
+        price: 125
       
       - name: Negroni
-        price: 125
+        price: 130
 
       - name: Boulevardier
         price: 130

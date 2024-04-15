@@ -29,12 +29,12 @@ items:
         - En vinagre y aceite de oliva extra virgen
 
       - name: Ensalada de tomate y bonito
-        price: 100
+        price: 105
         desc:
         - En aceite de oliva extra virgen y guindilla
-        
-      - name: Ensalada de anchoa y boquerón
-        price: 95
+
+      - name: Ensalada de tomate, anchoa y boquerón
+        price: 115
         desc:
         - Con tomate en aceite de oliva extra virgen
 
@@ -51,17 +51,17 @@ items:
         - Chorizo de bellota con 6 meses de curación y pimentón
 
       - name: Pinchos de la casa
-        price: 85
+        price: 90
         desc:
         - Boquerón, anchoa y pimiento asado
-      
+
       - name: Pincho ezequiel
         price: 85
         desc:
         - Pan, tomate, bonito, anchoa y guindilla
 
       - name: Rueda de queso
-        unit: 150g aprox
+        unit: 90g aprox
         price: 135
         desc:
         - Queso brie o camembert con pan y mermelada
@@ -91,7 +91,7 @@ items:
         desc:
         - 25g de jamón de cerdo ibérico de bellota con 36 meses de curación
         - Denominación de Origen Extremadura
-        
+
       - name: Hot-Dog
         price: 65
         desc:

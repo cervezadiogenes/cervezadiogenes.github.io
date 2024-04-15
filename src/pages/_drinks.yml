@@ -64,7 +64,7 @@ items:
           price: 105
 
   #-
-  #  label: "SERIES DE ESPUMA #30" 
+  #  label: "SERIES DE ESPUMA #30"
   #  legend: TRIPLE CITRA IPA
   #  class: clear
   #  products:
@@ -90,7 +90,7 @@ items:
     products:
       - name: Stella Artois
         unit: 330 ml
-        price: 50
+        price: 55
       - name: Modelo Especial
         unit: 355 ml
         price: 45
@@ -129,21 +129,21 @@ items:
       - Cinzano, campari y soda
 
     - name: Aperol Spritz
-      price: 125
+      price: 145
       desc:
       - Aperol, prosecco y soda
-   
+
     - name: Campari Spritz
-      price: 125
+      price: 135
       desc:
       - Campari, prosecco y soda
 
     - name: Vermut Spritz
-      price: 125
+      price: 135
       desc:
       - Vermut rojo ó blanco, prosecco y soda
     - name: Porto Tónica
-      price: 120
+      price: 125
       desc:
       - Porto, agua tónica y soda
     - name: Fernando
@@ -172,7 +172,7 @@ items:
     unit: 2 oz
     products:
       - name: Pelayo
-        price: 105
+        price: 115
         desc:
         - Gin larios, vermut y soda
 
@@ -183,8 +183,11 @@ items:
 
       - name: Wild Turkey Rye
         price: 125
-      
+
       - name: Negroni
+        price: 130
+
+      - name: Martini
         price: 130
 
       - name: Boulevardier

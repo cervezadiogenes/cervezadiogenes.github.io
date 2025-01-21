@@ -21,7 +21,7 @@ items:
         price: 35
       - name: Schweppes
         unit: 275 ml
-        price: 35
+        price: 40
       - name: Velvet Soda
         unit: 275 ml
         price: 55
@@ -49,16 +49,16 @@ items:
     products:
       - name: Caña de barril
         unit: 325 ml
-        price: 65
+        price: 70
       - name: Pinta de barril
         unit: 414 ml
-        price: 85
+        price: 90
       - name: Cerveza de Temporada
         unit: preguntar por estilos y disponibilidad
         options:
         - name: caña
           unit: 325 ml
-          price: 85
+          price: 90
         - name: pinta
           unit: 414 ml
           price: 105
@@ -82,7 +82,7 @@ items:
     products:
       - name: Botella Diógenes
         unit: 355 ml
-        price: 75
+        price: 80
 
   -
     legend: OTRAS CERVEZAS
@@ -90,10 +90,10 @@ items:
     products:
       - name: Stella Artois
         unit: 330 ml
-        price: 55
+        price: 60
       - name: Modelo Especial
         unit: 355 ml
-        price: 45
+        price: 50
       - name: Corona
         unit: 355 ml
         price: 40
@@ -157,12 +157,12 @@ items:
     unit: 5 oz
     products:
       - name: Vignerons D'Estézargues, Les Grandes Vignes
-        price: 110
+        price: 115
         desc:
         - Grenache Blanc-Clairette-Bourboulenc, AOC Côtes du Rhône, Francia
 
       - name: Vignerons D'Estézargues, Cuvée des Galets
-        price: 110
+        price: 115
         desc:
         - Grenache-Carignan-Syrah, AOC Côtes du Rhône, Francia
 
@@ -185,10 +185,10 @@ items:
         price: 125
 
       - name: Negroni
-        price: 130
+        price: 135
 
       - name: Martini
-        price: 130
+        price: 135
 
       - name: Boulevardier
-        price: 130
+        price: 135

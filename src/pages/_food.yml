@@ -45,44 +45,44 @@ items:
 
       - name: Embutidos ibéricos
         unit: 50g
-        price: 100
+        price: 105
         desc:
         - Salchichón de bellota con 6 meses de curación y pimienta negra
         - Chorizo de bellota con 6 meses de curación y pimentón
 
       - name: Pinchos de la casa
-        price: 90
+        price: 95
         desc:
         - Boquerón, anchoa y pimiento asado
 
       - name: Pincho ezequiel
-        price: 85
+        price: 90
         desc:
         - Pan, tomate, bonito, anchoa y guindilla
 
       - name: Rueda de queso
         unit: 90g aprox
-        price: 135
+        price: 140
         desc:
         - Queso brie o camembert con pan y mermelada
 
       - name: Tosta de jamón
-        price: 105
+        price: 110
         desc:
         - Pan, tomate, ibérico de recebo, aceite de oliva extra virgen
 
       - name: Tosta manchega
-        price: 105
+        price: 110
         desc:
         - Pan, tomate, queso de oveja semi curado y anchoa del cantábrico
 
       - name: Sándwich tostado de serrano
-        price: 105
+        price: 110
         desc:
         - Pan baguette, serrano y manchego 3 leches, acompañado con chips
 
       - name: Sándwich tostado de Jamón
-        price: 105
+        price: 110
         desc:
         - Pan Shoku, Jamón York, queso y dijon, acompañado con chips y pepinillos
 
@@ -119,7 +119,7 @@ items:
         - En vinagre
 
       - name: Chips con boquerones
-        price: 130
+        price: 135
         desc:
         - Acompañadas de olivas
 

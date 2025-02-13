@@ -90,16 +90,16 @@ items:
     products:
       - name: Stella Artois
         unit: 330 ml
-        price: 60
+        price: 64
       - name: Modelo Especial
         unit: 355 ml
-        price: 50
+        price: 52
       - name: Corona
         unit: 355 ml
-        price: 40
+        price: 48
       - name: Victoria
         unit: 355 ml
-        price: 40
+        price: 48
 
   right:
   -
@@ -109,17 +109,17 @@ items:
     products:
 
     - name: Vermut rojo ó blanco
-      price: 95
+      price: 105
       desc:
       - En las rocas ó con soda
 
     - name: Cynar
-      price: 105
+      price: 110
       desc:
       - En las rocas ó con soda
 
     - name: Amaro Averna
-      price: 105
+      price: 110
       desc:
       - En las rocas ó con soda
 
@@ -134,20 +134,20 @@ items:
       - Aperol, prosecco y soda
 
     - name: Campari Spritz
-      price: 135
+      price: 145
       desc:
       - Campari, prosecco y soda
 
     - name: Vermut Spritz
-      price: 135
+      price: 145
       desc:
       - Vermut rojo ó blanco, prosecco y soda
     - name: Porto Tónica
-      price: 125
+      price: 135
       desc:
       - Porto, agua tónica y soda
     - name: Fernando
-      price: 125
+      price: 140
       desc:
       - Fernet Branca con refresco de cola
 
@@ -172,23 +172,23 @@ items:
     unit: 2 oz
     products:
       - name: Pelayo
-        price: 115
+        price: 130
         desc:
         - Gin larios, vermut y soda
 
       - name: Beefeater
-        price: 125
+        price: 140
         desc:
         - Tónica
 
       - name: Wild Turkey Rye
-        price: 125
+        price: 140
 
       - name: Negroni
-        price: 135
+        price: 145
 
       - name: Martini
-        price: 135
+        price: 145
 
       - name: Boulevardier
-        price: 135
+        price: 145

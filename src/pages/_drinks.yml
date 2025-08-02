@@ -49,19 +49,19 @@ items:
     products:
       - name: Caña de barril
         unit: 325 ml
-        price: 70
+        price: 85
       - name: Pinta de barril
         unit: 414 ml
-        price: 90
+        price: 105
       - name: Cerveza de Temporada
         unit: preguntar por estilos y disponibilidad
         options:
         - name: caña
           unit: 325 ml
-          price: 90
+          price: 105
         - name: pinta
           unit: 414 ml
-          price: 110
+          price: 125
 
   #-
   #  label: "SERIES DE ESPUMA #30"
@@ -82,7 +82,7 @@ items:
     products:
       - name: Botella Diógenes
         unit: 355 ml
-        price: 80
+        price: 105
 
   -
     legend: OTRAS CERVEZAS

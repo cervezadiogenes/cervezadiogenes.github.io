@@ -97,6 +97,9 @@ items:
         desc:
         - Salchicha viena, pan y pepinillo
 
+      - name: Plato de fiambres
+        price: 135
+
   right:
   -
     label: TENTEMPIÉS

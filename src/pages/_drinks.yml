@@ -157,12 +157,12 @@ items:
     unit: 5 oz
     products:
       - name: Vignerons D'Estézargues, Les Grandes Vignes
-        price: 115
+        price: 125
         desc:
         - Grenache Blanc-Clairette-Bourboulenc, AOC Côtes du Rhône, Francia
 
       - name: Vignerons D'Estézargues, Cuvée des Galets
-        price: 115
+        price: 125
         desc:
         - Grenache-Carignan-Syrah, AOC Côtes du Rhône, Francia
 

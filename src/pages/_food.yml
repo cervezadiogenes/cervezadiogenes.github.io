@@ -18,87 +18,89 @@ items:
     class: clear
     products:
       - name: Olivas
-        price: 45
+        price: 55
         desc:
         - Verdes y negras con aliño de la casa
 
       - name: Boquerones
         unit: 6 piezas
-        price: 105
+        price: 125
         desc:
         - En vinagre y aceite de oliva extra virgen
 
       - name: Ensalada de tomate y bonito
-        price: 105
+        price: 135
         desc:
         - En aceite de oliva extra virgen y guindilla
 
       - name: Ensalada de tomate, anchoa y boquerón
-        price: 115
+        price: 145
         desc:
         - Con tomate en aceite de oliva extra virgen
 
       - name: Pimientos asados
-        price: 70
+        price: 85
         desc:
         - En vinagre y aceite de oliva extra virgen
 
       - name: Embutidos ibéricos
         unit: 50g
-        price: 105
+        price: 135
         desc:
         - Salchichón de bellota con 6 meses de curación y pimienta negra
         - Chorizo de bellota con 6 meses de curación y pimentón
 
       - name: Pinchos de la casa
-        price: 95
+        price: 115
         desc:
         - Boquerón, anchoa y pimiento asado
 
       - name: Pincho ezequiel
-        price: 90
+        price: 110
         desc:
         - Pan, tomate, bonito, anchoa y guindilla
 
-      - name: Rueda de queso
-        unit: 90g aprox
-        price: 140
+      - name: Queso Camembert
+        unit: 130g aprox
+        price: 150
         desc:
-        - Queso brie o camembert con pan y mermelada
+        - Con mermelada y pan
 
       - name: Tosta de jamón
-        price: 110
+        price: 145
         desc:
         - Pan, tomate, ibérico de recebo, aceite de oliva extra virgen
 
       - name: Tosta manchega
-        price: 110
+        price: 145
         desc:
         - Pan, tomate, queso de oveja semi curado y anchoa del cantábrico
 
       - name: Sándwich tostado de serrano
-        price: 110
+        price: 155
         desc:
         - Pan baguette, serrano y manchego 3 leches, acompañado con chips
 
       - name: Sándwich tostado de Jamón
-        price: 110
+        price: 145
         desc:
         - Pan Shoku, Jamón York, queso y dijon, acompañado con chips y pepinillos
 
       - name: Jamón de bellota
-        price: 145
+        price: 160
         desc:
         - 25g de jamón de cerdo ibérico de bellota con 36 meses de curación
         - Denominación de Origen Extremadura
 
       - name: Hot-Dog
-        price: 65
+        price: 85
         desc:
         - Salchicha viena, pan y pepinillo
 
       - name: Plato de fiambres
-        price: 135
+        price: 145
+        desc:
+        - Capocollo, mortadela y jamón cocido
 
   right:
   -
@@ -107,22 +109,22 @@ items:
     notes: '*especiales de temporada ver pizarrón'
     products:
       - name: Porción de chips
-        price: 35
+        price: 45
         desc:
         - Sal de mar
 
       - name: Pistaches
-        price: 40
+        price: 45
         desc:
         - Rostizados con sal
 
       - name: Pepinillos
-        price: 30
+        price: 45
         desc:
         - En vinagre
 
       - name: Chips con boquerones
-        price: 135
+        price: 155
         desc:
         - Acompañadas de olivas
 
@@ -131,4 +133,4 @@ items:
     classes: break
     products:
       - name: Cheesecake Japonés
-        price: 85
+        price: 95

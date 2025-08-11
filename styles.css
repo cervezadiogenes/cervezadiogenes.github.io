@@ -54,8 +54,7 @@ body.diogenes .segment.body {
   margin-top: 150px;
 }
 body.diogenes.page::before {
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
   position: fixed;
   z-index: -1;
   content: '';
